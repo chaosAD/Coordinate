@@ -1,0 +1,20 @@
+---
+:source:
+  :path: test
+  :file: test_Coordinate.c
+:successes:
+- :test: test_multiplyCoordinate_should_return_properly_multiplied_coordinate
+  :line: 25
+  :message: ''
+:failures:
+- :test: test_setCoordinate_should_return_proper_coordinate
+  :line: 22
+  :message: Expected 3343 Was 3
+:ignores: []
+:counts:
+  :total: 2
+  :passed: 1
+  :failed: 1
+  :ignored: 0
+:stdout:
+- Line number 16
